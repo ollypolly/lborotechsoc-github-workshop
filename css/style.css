@@ -17,9 +17,13 @@
 header {
   position: fixed;
   width: 100%;
-  top: 0; }
+  top: 0;
+  transition: background-color .6s ease-in-out; }
   header.scrolling {
-    background-color: #333; }
+    background-color: #333;
+    color: white; }
+    header.scrolling li {
+      color: white; }
 
 body {
   margin: 0;
