@@ -9,7 +9,36 @@
 .center {
   text-align: center; }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
 body {
   margin: 0;
-  font: 100% Helvetica, sans-serif;
+  font: 16px Helvetica, sans-serif;
   color: #333; }
+  body .container {
+    margin-top: 50px;
+    height: 1000px; }
+  body .navbar {
+    justify-content: space-between; }
+    body .navbar ul {
+      margin-top: 0;
+      margin-bottom: 0; }
+    body .navbar a {
+      text-decoration: none;
+      color: #333;
+      transition: color .2s ease-in-out; }
+    body .navbar a:hover li {
+      background-color: #e6e6e6;
+      border-radius: 5px; }
+    body .navbar li {
+      list-style-type: none;
+      padding: 10px;
+      transition: background-color .2s ease-in-out; }

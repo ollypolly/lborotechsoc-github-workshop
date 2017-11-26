@@ -14,7 +14,45 @@ $primary-color: #333
 .center
   text-align: center
 
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+// Main styles
+header
+  position: fixed
+  width: 100%
+  top: 0
+
 body
   margin: 0
-  font: 100% $font-stack
+  font: 16px $font-stack
   color: $primary-color
+
+  .container
+    margin-top: 50px
+    height: 1000px
+
+  .navbar
+    justify-content: space-between
+
+    ul
+      margin-top: 0
+      margin-bottom: 0
+
+    a
+      text-decoration: none
+      color: #333
+      transition: color .2s ease-in-out
+
+    a:hover
+
+      li
+        background-color: #e6e6e6
+        border-radius: 5px
+
+    li
+      list-style-type: none
+      padding: 10px
+      transition: background-color .2s ease-in-out
