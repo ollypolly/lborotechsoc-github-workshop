@@ -43,8 +43,9 @@ body {
       transition: color .2s ease-in-out; }
     body .navbar a:hover li {
       background-color: #e6e6e6;
-      border-radius: 5px; }
+      color: #333; }
     body .navbar li {
       list-style-type: none;
       padding: 10px;
-      transition: background-color .2s ease-in-out; }
+      transition: background-color .2s ease-in-out;
+      border-radius: 5px; }
