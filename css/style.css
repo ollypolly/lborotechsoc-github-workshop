@@ -18,6 +18,8 @@ header {
   position: fixed;
   width: 100%;
   top: 0; }
+  header.scrolling {
+    background-color: #333; }
 
 body {
   margin: 0;
