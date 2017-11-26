@@ -1,0 +1,15 @@
+.h-padding-med {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.center {
+  text-align: center; }
+
+body {
+  margin: 0;
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
