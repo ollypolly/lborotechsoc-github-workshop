@@ -9,6 +9,21 @@
 .center {
   text-align: center; }
 
+.v-centered {
+  align-items: center;
+  justify-content: center; }
+
+.max-h-w {
+  height: 30%;
+  width: 50%;
+  background-color: #f1eded;
+  border-radius: 5px;
+  margin: 20px; }
+
+.max-h-w-container {
+  height: 60%;
+  width: 100%; }
+
 *,
 *::before,
 *::after {
@@ -25,13 +40,33 @@ header {
     header.scrolling li {
       color: white; }
 
+html,
+body {
+  height: 100%; }
+
 body {
   margin: 0;
   font: 16px Helvetica, sans-serif;
   color: #333; }
   body .container {
-    margin-top: 50px;
-    height: 1000px; }
+    margin-top: 60px;
+    height: 100%; }
+    body .container .workshop-container {
+      margin-top: 270; }
+    body .container .workshops {
+      justify-content: center; }
+      body .container .workshops a {
+        text-decoration: none;
+        color: white; }
+      body .container .workshops .button {
+        background-color: #4ac0de;
+        border-radius: 5px;
+        font: inherit;
+        padding: 10px;
+        color: white;
+        transition: background-color .3s ease-in-out; }
+      body .container .workshops .button:hover {
+        background-color: #3a94ab; }
   body .navbar {
     justify-content: space-between; }
     body .navbar ul {
@@ -49,3 +84,6 @@ body {
       padding: 10px;
       transition: background-color .2s ease-in-out;
       border-radius: 5px; }
+
+footer {
+  padding-bottom: 50px; }
